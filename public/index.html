@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camouflage</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Camouflage.
+      </div>
+    </header>
+    <div class="confession-wrapper">
+      <div class="post">
+        <form id="post-form">
+          <textarea id="post-area" placeholder="Confess anything you want..." name="post"></textarea>
+          <div class="button-wrapper">
+            <button id="post-button"><i class="fas fa-arrow-alt-circle-down"></i> Post</button>
+            <button class="button-effect-pop">&middot;</button>
+          </div>
+        </form>
+      </div>
+      <div class="confessions">
+
+      </div>
+    </div>
+    <footer>
+      Made with <b>&#10084;</b> by Abhinav Thukral
+    </footer>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
